@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573ac39f-498f-499c-908f-9ec1878b2d14" name="Changes" comment="Implemented BaseTypes">
-      <change afterPath="$PROJECT_DIR$/Logic.Core/BaseTypes/BaseTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StringManipulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringManipulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/BaseTypes.cs" beforeDir="false" />
+    <list default="true" id="573ac39f-498f-499c-908f-9ec1878b2d14" name="Changes" comment="Implemented BaseTransformer.cs and starting out on Implementing Different types of transformers.">
+      <change beforePath="$PROJECT_DIR$/Logic.Transformer/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic.Transformer/Logic.Transformer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/Logic.Transformer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic.Transformer/LowerCaseTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/LowerCaseTransformer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662458432261</updated>
       <workItem from="1662458434101" duration="133000" />
-      <workItem from="1662458678000" duration="4373000" />
+      <workItem from="1662458678000" duration="4755000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Enums">
       <created>1662463419534</created>
@@ -66,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662463470731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented BaseTransformer.cs and starting out on Implementing Different types of transformers.">
+      <created>1662464575847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662464575847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +98,7 @@
     <MESSAGE value="Implemented Enums" />
     <MESSAGE value="Created Interfaces" />
     <MESSAGE value="Implemented BaseTypes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented BaseTypes" />
+    <MESSAGE value="Implemented BaseTransformer.cs and starting out on Implementing Different types of transformers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented BaseTransformer.cs and starting out on Implementing Different types of transformers." />
   </component>
 </project>
