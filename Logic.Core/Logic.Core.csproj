@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <AssemblyName>StringManipulator.Logic.Common</AssemblyName>
+        <RootNamespace>devdeer.StringManipulator.Logic.Common</RootNamespace>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Logic.Common\Logic.Common.csproj" />
+    </ItemGroup>
+
+</Project>
