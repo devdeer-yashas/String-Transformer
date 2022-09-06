@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573ac39f-498f-499c-908f-9ec1878b2d14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Logic.Common/Enumerations/TransformId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logic.Common/Interfaces/ITransformer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logic.Core/BaseTypes.cs" afterDir="false" />
+    <list default="true" id="573ac39f-498f-499c-908f-9ec1878b2d14" name="Changes" comment="Implemented BaseTypes">
+      <change afterPath="$PROJECT_DIR$/Logic.Core/BaseTypes/BaseTransformer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StringManipulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringManipulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic.Core/BaseTypes.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,30 @@
       <option name="presentableId" value="Default" />
       <updated>1662458432261</updated>
       <workItem from="1662458434101" duration="133000" />
-      <workItem from="1662458678000" duration="3315000" />
+      <workItem from="1662458678000" duration="4373000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented Enums">
+      <created>1662463419534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662463419534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created Interfaces">
+      <created>1662463442621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662463442621</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implemented BaseTypes">
+      <created>1662463470730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662463470731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,5 +87,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Implemented Enums" />
+    <MESSAGE value="Created Interfaces" />
+    <MESSAGE value="Implemented BaseTypes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented BaseTypes" />
   </component>
 </project>
