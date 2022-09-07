@@ -3,8 +3,8 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
-        <AssemblyName>StringManipulator.Logic.Common</AssemblyName>
-        <RootNamespace>devdeer.StringManipulator.Logic.Common</RootNamespace>
+        <AssemblyName>StringManipulator.Ui.Console</AssemblyName>
+        <RootNamespace>devdeer.StringManipulator.Ui.Console</RootNamespace>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 

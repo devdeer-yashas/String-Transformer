@@ -7,45 +7,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573ac39f-498f-499c-908f-9ec1878b2d14" name="Changes" comment="All Implementation files created.">
-      <change afterPath="$PROJECT_DIR$/Tests.Core/TestTransformer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests.Core/TransformerTests.cs" afterDir="false" />
+    <list default="true" id="573ac39f-498f-499c-908f-9ec1878b2d14" name="Changes" comment="Created Implementations, Tests and UI solution folders.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StringManipulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringManipulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Common/Interfaces/ITransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Common/Interfaces/ITransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Common/obj/Debug/net6.0/Logic.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Common/obj/Debug/net6.0/Logic.Common.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Common/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/BaseTypes/BaseTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/BaseTypes/BaseTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/Logic.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/Logic.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/Debug/net6.0/Logic.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/Logic.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/Logic.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/Logic.Transformer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/Logic.Transformer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/LowerCaseTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/LowerCaseTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/RemoveItemTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/RemoveItemTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/ReplaceItemTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/ReplaceItemTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/RevertTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/RevertTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/UpperCaseTransformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/UpperCaseTransformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/Debug/net6.0/Logic.Transformer.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/Logic.Transformer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/Logic.Transformer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic.Transformer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Transformer/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringManipulator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/StringManipulator.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/Console.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Console/Console.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Console/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/Console.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/Console.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/Debug/net6.0/Console.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/Debug/net6.0/Console.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/Debug/net6.0/Console.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/Debug/net6.0/Console.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/Debug/net6.0/Console.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/Debug/net6.0/Console.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Console/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic.Common/Enumerations/TransformId.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.Common/Enumerations/TransformId.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Console/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Logic.Transformer/obj/Logic.Transformer.csproj.nuget.dgspec.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662458432261</updated>
       <workItem from="1662458434101" duration="133000" />
-      <workItem from="1662458678000" duration="12899000" />
+      <workItem from="1662458678000" duration="15894000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Enums">
       <created>1662463419534</created>
@@ -143,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662511265404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created Implementations, Tests and UI solution folders.">
+      <created>1662554842749</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662554842749</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +160,7 @@
     <MESSAGE value="Implemented BaseTransformer.cs and starting out on Implementing Different types of transformers." />
     <MESSAGE value="Created all files for all the different types of Transformers." />
     <MESSAGE value="All Implementation files created." />
-    <option name="LAST_COMMIT_MESSAGE" value="All Implementation files created." />
+    <MESSAGE value="Created Implementations, Tests and UI solution folders." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Implementations, Tests and UI solution folders." />
   </component>
 </project>

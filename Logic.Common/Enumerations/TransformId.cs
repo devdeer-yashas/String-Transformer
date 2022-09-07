@@ -11,9 +11,9 @@ namespace devdeer.StringManipulator.Logic.Common.Enumerations
     {
         LowerCaseTransformer = 1,
 
-        RevertTransformer = 2,
+        UpperCaseTransformer = 2,
 
-        UpperCaseTransformer = 3,
+        RevertTransformer= 3,
 
         RemoveItemTransformer = 4,
 

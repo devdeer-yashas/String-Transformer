@@ -14,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\devdeer\\source\\String-Transformer\\Console\\Console.csproj",
-      "projectName": "StringManipulator.Logic.Common",
+      "projectName": "StringManipulator.Ui.Console",
       "projectPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Console\\Console.csproj",
       "packagesPath": "C:\\Users\\devdeer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Console\\obj\\",
