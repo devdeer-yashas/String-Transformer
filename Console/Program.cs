@@ -1,6 +1,3 @@
-using System;
-using System.Linq;
-
 namespace devdeer.StringManipulator.Ui.Console
 {
     using System;
@@ -15,6 +12,7 @@ namespace devdeer.StringManipulator.Ui.Console
         private static readonly List<int> TransformIDs = new();
 
         #endregion
+
         #region methods
 
         public static void Main(string[] args)
@@ -69,8 +67,7 @@ namespace devdeer.StringManipulator.Ui.Console
 
         private static void ShowMenu()
         {
-            Console.WriteLine("String Handling Pipeline 0.1 - work in progress");
-            Console.WriteLine("Put in a message you want to transform operations on.");
+            Console.WriteLine("Enter the message that has to be transformed.");
             Console.WriteLine("-----------------------------------------------------------------------------");
             Console.WriteLine("The following operations are available:");
             Console.WriteLine("1 - Turn the message into all lowercase letters.");
