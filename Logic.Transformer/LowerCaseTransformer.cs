@@ -12,7 +12,8 @@ namespace devdeer.StringManipulator.Logic.Common
 
         protected override void InternalTransformer(string message, List<int> transformationId)
         {
-            throw new NotImplementedException();
+            CurrentMessage = message.ToLower();
+            transformationId.Remove(0);
         }
 
         #endregion
