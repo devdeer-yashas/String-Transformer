@@ -1,10 +1,10 @@
-namespace devdeer.StringManipulator.Logic.Common.BaseTypes
+namespace devdeer.StringManipulator.Logic.Core.BaseTypes
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Interfaces;
+    using Common.Interfaces;
 
     /// <summary>
     /// Abstract base class for all Transformers.
@@ -14,7 +14,7 @@ namespace devdeer.StringManipulator.Logic.Common.BaseTypes
         #region member vars
 
         public string CurrentMessage = string.Empty;
-        public List<int> RemainingTransformations = new List<int>();
+        public List<int> RemainingTransformations = new();
 
         #endregion
 

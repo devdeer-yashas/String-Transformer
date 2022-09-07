@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "StringManipulator.Logic.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StringManipulator.Logic.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringManipulator.Logic.Common.dll": {}
+        }
+      },
+      "StringManipulator.Logic.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "StringManipulator.Logic.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StringManipulator.Logic.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringManipulator.Logic.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StringManipulator.Logic.Common/1.0.0": {
+      "type": "project",
+      "path": "../Logic.Common/Logic.Common.csproj",
+      "msbuildProject": "../Logic.Common/Logic.Common.csproj"
+    },
+    "StringManipulator.Logic.Core/1.0.0": {
+      "type": "project",
+      "path": "../Logic.Core/Logic.Core.csproj",
+      "msbuildProject": "../Logic.Core/Logic.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "StringManipulator.Logic.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\devdeer\\.nuget\\packages\\": {}
@@ -14,7 +51,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Transformer\\Logic.Transformer.csproj",
-      "projectName": "StringManipulator.Logic.Common",
+      "projectName": "StringManipulator.Logic.Transformer",
       "projectPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Transformer\\Logic.Transformer.csproj",
       "packagesPath": "C:\\Users\\devdeer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Transformer\\obj\\",
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Core\\Logic.Core.csproj": {
+              "projectPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Core\\Logic.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

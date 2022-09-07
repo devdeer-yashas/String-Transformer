@@ -2,13 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <AssemblyName>StringManipulator.Logic.Common</AssemblyName>
-        <RootNamespace>devdeer.StringManipulator.Logic.Common</RootNamespace>
+        <AssemblyName>StringManipulator.Logic.Transformer</AssemblyName>
+        <RootNamespace>devdeer.StringManipulator.Logic.Transformer</RootNamespace>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Logic.Core\Logic.Core.csproj" />
+        <ProjectReference Include="..\Logic.Core\Logic.Core.csproj"/>
     </ItemGroup>
 
 </Project>

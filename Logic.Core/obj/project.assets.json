@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "StringManipulator.Logic.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StringManipulator.Logic.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringManipulator.Logic.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StringManipulator.Logic.Common/1.0.0": {
+      "type": "project",
+      "path": "../Logic.Common/Logic.Common.csproj",
+      "msbuildProject": "../Logic.Common/Logic.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "StringManipulator.Logic.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\devdeer\\.nuget\\packages\\": {}
@@ -14,7 +33,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Core\\Logic.Core.csproj",
-      "projectName": "StringManipulator.Logic.Common",
+      "projectName": "StringManipulator.Logic.Core",
       "projectPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Core\\Logic.Core.csproj",
       "packagesPath": "C:\\Users\\devdeer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Core\\obj\\",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Common\\Logic.Common.csproj": {
+              "projectPath": "C:\\Users\\devdeer\\source\\String-Transformer\\Logic.Common\\Logic.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

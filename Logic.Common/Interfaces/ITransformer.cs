@@ -9,6 +9,10 @@ namespace devdeer.StringManipulator.Logic.Common.Interfaces
     /// </summary>
     public interface ITransformer
     {
+        #region methods
+
         void Transform(string message, List<int> transformationId);
+
+        #endregion
     }
 }

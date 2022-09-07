@@ -1,10 +1,10 @@
-namespace devdeer.StringManipulator.Logic.Common
+namespace devdeer.StringManipulator.Logic.Transformer
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using BaseTypes;
+    using Core.BaseTypes;
 
     public class RevertItemTransformer : BaseTransformer
     {
